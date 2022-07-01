@@ -1,0 +1,239 @@
+{
+    "id": "INCINEROAR",
+    "formId": "INCINEROAR",
+    "dexNr": 727,
+    "generation": 7,
+    "names": {
+        "English": "Incineroar",
+        "German": "Fuegro",
+        "French": "F\u00e9linferno",
+        "Italian": "Incineroar",
+        "Japanese": "\u30ac\u30aa\u30ac\u30a8\u30f3",
+        "Korean": "\uc5b4\ud765\uc5fc",
+        "Spanish": "Incineroar"
+    },
+    "stats": {
+        "stamina": 216,
+        "attack": 214,
+        "defense": 175
+    },
+    "primaryType": {
+        "type": "POKEMON_TYPE_FIRE",
+        "names": {
+            "English": "Fire",
+            "German": "Feuer",
+            "French": "Feu",
+            "Italian": "Fuoco",
+            "Japanese": "\u307b\u306e\u304a",
+            "Korean": "\ubd88\uaf43",
+            "Spanish": "Fuego"
+        }
+    },
+    "secondaryType": {
+        "type": "POKEMON_TYPE_DARK",
+        "names": {
+            "English": "Dark",
+            "German": "Unlicht",
+            "French": "T\u00e9n\u00e8bres",
+            "Italian": "Buio",
+            "Japanese": "\u3042\u304f",
+            "Korean": "\uc545",
+            "Spanish": "Siniestro"
+        }
+    },
+    "rarity": null,
+    "quickMoves": {
+        "SNARL_FAST": {
+            "id": "SNARL_FAST",
+            "power": 12,
+            "energy": 14,
+            "durationMs": 1100,
+            "type": {
+                "type": "POKEMON_TYPE_DARK",
+                "names": {
+                    "English": "Dark",
+                    "German": "Unlicht",
+                    "French": "T\u00e9n\u00e8bres",
+                    "Italian": "Buio",
+                    "Japanese": "\u3042\u304f",
+                    "Korean": "\uc545",
+                    "Spanish": "Siniestro"
+                }
+            },
+            "names": {
+                "English": "Snarl",
+                "German": "Standpauke",
+                "French": "Aboiement",
+                "Italian": "Urlorabbia",
+                "Japanese": "\u30d0\u30fc\u30af\u30a2\u30a6\u30c8",
+                "Korean": "\ubc14\ud06c\uc544\uc6c3",
+                "Spanish": "Alarido"
+            },
+            "combat": {
+                "energy": 13,
+                "power": 5,
+                "turns": 3,
+                "buffs": null
+            }
+        },
+        "FIRE_FANG_FAST": {
+            "id": "FIRE_FANG_FAST",
+            "power": 12,
+            "energy": 8,
+            "durationMs": 900,
+            "type": {
+                "type": "POKEMON_TYPE_FIRE",
+                "names": {
+                    "English": "Fire",
+                    "German": "Feuer",
+                    "French": "Feu",
+                    "Italian": "Fuoco",
+                    "Japanese": "\u307b\u306e\u304a",
+                    "Korean": "\ubd88\uaf43",
+                    "Spanish": "Fuego"
+                }
+            },
+            "names": {
+                "English": "Fire Fang",
+                "German": "Feuerzahn",
+                "French": "Crocs Feu",
+                "Italian": "Rogodenti",
+                "Japanese": "\u307b\u306e\u304a\u306e\u30ad\u30d0",
+                "Korean": "\ubd88\uaf43\uc5c4\ub2c8",
+                "Spanish": "Colmillo \u00cdgneo"
+            },
+            "combat": {
+                "energy": 5,
+                "power": 8,
+                "turns": 2,
+                "buffs": null
+            }
+        }
+    },
+    "cinematicMoves": {
+        "FIRE_BLAST": {
+            "id": "FIRE_BLAST",
+            "power": 140,
+            "energy": -100,
+            "durationMs": 4200,
+            "type": {
+                "type": "POKEMON_TYPE_FIRE",
+                "names": {
+                    "English": "Fire",
+                    "German": "Feuer",
+                    "French": "Feu",
+                    "Italian": "Fuoco",
+                    "Japanese": "\u307b\u306e\u304a",
+                    "Korean": "\ubd88\uaf43",
+                    "Spanish": "Fuego"
+                }
+            },
+            "names": {
+                "English": "Fire Blast",
+                "German": "Feuersturm",
+                "French": "D\u00e9flagration",
+                "Italian": "Fuocobomba",
+                "Japanese": "\u3060\u3044\u3082\u3093\u3058",
+                "Korean": "\ubd88\ub300\ubb38\uc790",
+                "Spanish": "Llamarada"
+            },
+            "combat": {
+                "energy": -80,
+                "power": 140,
+                "turns": 1,
+                "buffs": null
+            }
+        },
+        "FLAME_CHARGE": {
+            "id": "FLAME_CHARGE",
+            "power": 70,
+            "energy": -33,
+            "durationMs": 3800,
+            "type": {
+                "type": "POKEMON_TYPE_FIRE",
+                "names": {
+                    "English": "Fire",
+                    "German": "Feuer",
+                    "French": "Feu",
+                    "Italian": "Fuoco",
+                    "Japanese": "\u307b\u306e\u304a",
+                    "Korean": "\ubd88\uaf43",
+                    "Spanish": "Fuego"
+                }
+            },
+            "names": {
+                "English": "Flame Charge",
+                "German": "Nitroladung",
+                "French": "Nitrocharge",
+                "Italian": "Nitrocarica",
+                "Japanese": "\u30cb\u30c8\u30ed\u30c1\u30e3\u30fc\u30b8",
+                "Korean": "\ub2c8\ud2b8\ub85c\ucc28\uc9c0",
+                "Spanish": "Nitrocarga"
+            },
+            "combat": {
+                "energy": -50,
+                "power": 65,
+                "turns": 1,
+                "buffs": {
+                    "activationChance": 100,
+                    "attackerAttackStatsChange": 1,
+                    "attackerDefenseStatsChange": null,
+                    "targetAttackStatsChange": null,
+                    "targetDefenseStatsChange": null
+                }
+            }
+        },
+        "DARK_PULSE": {
+            "id": "DARK_PULSE",
+            "power": 80,
+            "energy": -50,
+            "durationMs": 3000,
+            "type": {
+                "type": "POKEMON_TYPE_DARK",
+                "names": {
+                    "English": "Dark",
+                    "German": "Unlicht",
+                    "French": "T\u00e9n\u00e8bres",
+                    "Italian": "Buio",
+                    "Japanese": "\u3042\u304f",
+                    "Korean": "\uc545",
+                    "Spanish": "Siniestro"
+                }
+            },
+            "names": {
+                "English": "Dark Pulse",
+                "German": "Finsteraura",
+                "French": "Vibrobscur",
+                "Italian": "Neropulsar",
+                "Japanese": "\u3042\u304f\u306e\u306f\u3069\u3046",
+                "Korean": "\uc545\uc758\ud30c\ub3d9",
+                "Spanish": "Pulso Umbr\u00edo"
+            },
+            "combat": {
+                "energy": -50,
+                "power": 80,
+                "turns": 1,
+                "buffs": null
+            }
+        }
+    },
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": [],
+    "assets": {
+        "image": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon/Addressable%20Assets/pm727.icon.png",
+        "shinyImage": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon/Addressable%20Assets/pm727.s.icon.png"
+    },
+    "regionForms": [],
+    "evolutions": [],
+    "hasMegaEvolution": false,
+    "megaEvolutions": [],
+    "assetForms": [
+        {
+            "form": null,
+            "costume": null,
+            "isFemale": false,
+            "image": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon/Addressable%20Assets/pm727.icon.png",
+            "shinyImage": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon/Addressable%20Assets/pm727.s.icon.png"
+        }
+    ]
+}

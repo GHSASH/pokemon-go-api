@@ -1,0 +1,123 @@
+{
+    "id": "NAGANADEL",
+    "formId": "NAGANADEL",
+    "dexNr": 804,
+    "generation": 7,
+    "names": {
+        "English": "Naganadel",
+        "German": "Agoyon",
+        "French": "Mandrillon",
+        "Italian": "Naganadel",
+        "Japanese": "\u30a2\u30fc\u30b4\u30e8\u30f3",
+        "Korean": "\uc544\uace0\uc6a9",
+        "Spanish": "Naganadel"
+    },
+    "stats": {
+        "stamina": 177,
+        "attack": 263,
+        "defense": 159
+    },
+    "primaryType": {
+        "type": "POKEMON_TYPE_POISON",
+        "names": {
+            "English": "Poison",
+            "German": "Gift",
+            "French": "Poison",
+            "Italian": "Veleno",
+            "Japanese": "\u3069\u304f",
+            "Korean": "\ub3c5",
+            "Spanish": "Veneno"
+        }
+    },
+    "secondaryType": {
+        "type": "POKEMON_TYPE_DRAGON",
+        "names": {
+            "English": "Dragon",
+            "German": "Drache",
+            "French": "Dragon",
+            "Italian": "Drago",
+            "Japanese": "\u30c9\u30e9\u30b4\u30f3",
+            "Korean": "\ub4dc\ub798\uace4",
+            "Spanish": "Drag\u00f3n"
+        }
+    },
+    "rarity": null,
+    "quickMoves": {
+        "STRUGGLE": {
+            "id": "STRUGGLE",
+            "power": 35,
+            "energy": 0,
+            "durationMs": 2200,
+            "type": {
+                "type": "POKEMON_TYPE_NORMAL",
+                "names": {
+                    "English": "Normal",
+                    "German": "Normal",
+                    "French": "Normal",
+                    "Italian": "Normale",
+                    "Japanese": "\u30ce\u30fc\u30de\u30eb",
+                    "Korean": "\ub178\ub9d0",
+                    "Spanish": "Normal"
+                }
+            },
+            "names": {
+                "English": "Struggle",
+                "German": "Verzweifler",
+                "French": "Lutte",
+                "Italian": "Scontro",
+                "Japanese": "\u308f\u308b\u3042\u304c\u304d",
+                "Korean": "\ubc1c\ubc84\ub465",
+                "Spanish": "Combate"
+            },
+            "combat": {
+                "energy": -100,
+                "power": 35,
+                "turns": 1,
+                "buffs": null
+            }
+        }
+    },
+    "cinematicMoves": {
+        "STRUGGLE": {
+            "id": "STRUGGLE",
+            "power": 35,
+            "energy": 0,
+            "durationMs": 2200,
+            "type": {
+                "type": "POKEMON_TYPE_NORMAL",
+                "names": {
+                    "English": "Normal",
+                    "German": "Normal",
+                    "French": "Normal",
+                    "Italian": "Normale",
+                    "Japanese": "\u30ce\u30fc\u30de\u30eb",
+                    "Korean": "\ub178\ub9d0",
+                    "Spanish": "Normal"
+                }
+            },
+            "names": {
+                "English": "Struggle",
+                "German": "Verzweifler",
+                "French": "Lutte",
+                "Italian": "Scontro",
+                "Japanese": "\u308f\u308b\u3042\u304c\u304d",
+                "Korean": "\ubc1c\ubc84\ub465",
+                "Spanish": "Combate"
+            },
+            "combat": {
+                "energy": -100,
+                "power": 35,
+                "turns": 1,
+                "buffs": null
+            }
+        }
+    },
+    "eliteQuickMoves": [],
+    "eliteCinematicMoves": [],
+    "assets": null,
+    "regionForms": [],
+    "evolutions": [],
+    "hasMegaEvolution": false,
+    "megaEvolutions": [],
+    "assetForms": []
+}
